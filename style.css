@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800;900&display=swap');
+
+@font-face {
+    font-family: GentyDemo;
+    src: url(Fonts/GentyDemo-Regular.ttf);
+}
+
+h1{
+   font-family: Genty; 
+}
+
+.bd-navbar{
+    padding: .75rem 0;
+}
+
+
+.SimonFeliz{
+    height: auto;
+    max-width: 60%;
+}
+
+section{
+    padding-top: 3.5rem;
+    padding-bottom: 2.8rem;
+}
+
+/* BREAKPOINTS */
+
+
+/* MD breakpoint*/
+@media (min-width: 768px) {
+    /* CUSTOM WIDTHS */
+    .w-md-75 { width: 75%!important; }
+}
+
+/* LG breakpoint */
+@media (min-width: 992px) {
+    /* CUSTOM WIDTHS */
+    .w-lg-65 { width: 65%!important; }
+
+}
+
+.SimonEmocion{
+    max-width: 50%;
+    height: auto;
+}
+
+.navbar-brand-logo{
+    width: 100%;
+    min-width: 10.5rem;
+    max-width: 10.5rem;
+}
+
+#start, body{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    color: #FCA31D;
+}
+
+h2{
+    font-weight: 900;
+    color: #FCA31D;
+}
+
+h1{
+    font-family: GentyDemo;
+    color: #FB5931;
+    text-shadow: 8px 8px 0px #FFBAAA;
+}
+
+.custom-display{
+    font-size: calc(1.625rem + 10vw);
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.subtitle{
+    font-weight: 990;
+    color: #FB5931;
+}
+
+p{
+    color: black;
+    font-weight: 500;
+}
+
+h3{
+    color: #1EA8D7;
+    font-weight: 800;
+}
+
+img{
+    height: auto;
+    max-width: 60%;
+}
+
+.teseo{
+    text-align: center;
+    background: linear-gradient(#8E8E8E, white);
+}
+
+.csociety{
+    text-align: center;
+    background: linear-gradient(#FBA825, white);
+}
+
+.imgcs{
+    max-width: 44.26%;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.offimages{
+    max-width: 100%;
+}
+
+i{
+    font-size: 4rem;
+}
+
+.feature-box-icon{
+    padding-bottom: 2rem;
+}
